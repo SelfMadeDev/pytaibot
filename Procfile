@@ -1,1 +1,1 @@
-worker: python bot.py
+web: gunicorn bot.pgit add .y:server
