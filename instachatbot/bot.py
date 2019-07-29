@@ -39,7 +39,7 @@ class InstagramChatBot:
         self.response = None
 
     def login(self, username, password, proxy=None):
-        self._api.login(username, password, proxy=proxy)
+        self._api.login(username, password, proxy=proxy, use_cookie=False)
         self.user_id = self._api.user_id
 
     def start(self, polling_interval=1):
