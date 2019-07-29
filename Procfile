@@ -1,1 +1,1 @@
-web: gunicorn bot.pgit add .y:server
+web: gunicorn bot.py:server
