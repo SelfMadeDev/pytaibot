@@ -42,7 +42,7 @@ class InstagramChatBot:
         self._api.login(username, password, proxy=proxy, use_cookie=False)
         self.user_id = self._api.user_id
 
-    def start(self, polling_interval=1.5):
+    def start(self, polling_interval=2):
         start_timestamp = time.time() * 1000000
 
         while True:
