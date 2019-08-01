@@ -214,4 +214,4 @@ class InstagramChatBot:
     @staticmethod
     def get_search_link(departure, arrival):
         # return f'https://www.skyscanner.com/transport/flights/{departure}/{arrival}/' if departure and arrival else 'Sorry, can\'t find the location!'
-        return f'https://lets.travelwith.ai/{departure}/{arrival}/?outboundaltsenabled=true&inboundaltsenabled=true' if departure and arrival else 'Sorry, can\'t find the location!'
+        return f'https://lets.travelwith.ai/{departure}/{arrival}/' if departure and arrival else 'Sorry, can\'t find the location!'
